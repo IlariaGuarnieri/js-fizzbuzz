@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.box.dispari{
+  background-color: #0BD6A1;
+}
+
+.box.five{
+  background-color: #d6300b;
+}
