@@ -13,10 +13,10 @@
   margin: 10px;
 }
 
-.box.dispari{
+.box.fizz{
   background-color: #0BD6A1;
 }
 
-.box.five{
+.box.buzz{
   background-color: #d6300b;
 }
