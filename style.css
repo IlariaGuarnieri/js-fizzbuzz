@@ -1,9 +1,20 @@
+body{
+  background-color: #083B4C;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
 .container{
   display: flex;
   flex-wrap: wrap;
 }
 
 .box{
+  background-color: #1489B2;
   width: 60px;
   height: 60px;
   display: flex;
@@ -18,5 +29,9 @@
 }
 
 .box.buzz{
-  background-color: #d6300b;
+  background-color: #FFD166;
+}
+
+.box.fizzBuzz{
+  background-color: #F1466F;
 }
